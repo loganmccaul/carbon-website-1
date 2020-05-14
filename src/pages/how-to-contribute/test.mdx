@@ -1,0 +1,45 @@
+# gatsby-theme-carbon-editor
+The Gatsby Theme Carbon Editor on codesandbox makes it easier to write documentation
+files for gatsby-theme-carbon without having to set up or use a development environment.
+
+## Why?
+Not everyone that writes docs for site that use the gatsby-theme-carbon editor are technical.
+This causes a huge barrier for contributions to docs site and bottlenecks developers. The
+gatsby-theme-carbon also have long build times when a user is looking to edit a single file.
+
+## How to use?
+1. Edit this file (index.mdx) with your own content. This could mean creating your
+own docs from scratch, or pasting in existing docs and editing them.
+
+1a. All components available on this site (https://gatsby-theme-carbon.now.sh/getting-started/)
+are available for usage here. For example a Resource Card
+
+<Row className="resource-card-group">
+  <Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Carbon Design System"
+      href="https://www.carbondesignsystem.com"
+    >
+      ![Github icon](/images/github-icon.png)
+    </ResourceCard>
+  </Column>
+  <Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Carbon Design System"
+      href="https://www.carbondesignsystem.com"
+    >
+      ![Github icon](/images/github-icon.png)
+    </ResourceCard>
+  </Column>
+</Row>
+
+1b. Add images to the image folder as needed
+
+2. Once ready, copy the new content into a PR for your gatsby-theme-carbon docs site
+
+2a. Navigate the the [Githib Repo](https://github.com/carbon-design-system/carbon-website), Let's use Carbon as an example.
+
+2b. Create a new file using Github's UI in the location you are adding docs to.
+For this example let's add this file to https://github.com/carbon-design-system/carbon-website/tree/master/src/pages/how-to-contribute
+
+2c. Select "Create New File" in Github's UI. Add a title with a `.mdx` extension, and paste in your mdx code.
